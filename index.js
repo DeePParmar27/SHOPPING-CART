@@ -1,18 +1,17 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
-import { getDatabase, ref , push , onValue , remove} from "https://www.gstatic.com/firebasejs/10.1.0/firebase-database.js"
-
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+import { getDatabase, ref , push , onValue , remove} from "https://www.gstatic.com/firebasejs/10.4.0/firebase-database.js"
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAaoupwL8jZkgsdrbjswEg-5H2LWjLT2n4",
-    authDomain: "playground-ba814.firebaseapp.com",
-    databaseURL: "https://playground-ba814-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "playground-ba814",
-    storageBucket: "playground-ba814.appspot.com",
-    messagingSenderId: "444408422972",
-    appId: "1:444408422972:web:512b3a191e0abbf08cd939"
-  };
-
-
+  apiKey: "AIzaSyBAdcOV-HXxQPHCL2eiAmCRzMxxTkgfz6U",
+  authDomain: "shoppingcart-1fb9f.firebaseapp.com",
+  databaseURL: "https://shoppingcart-1fb9f-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "shoppingcart-1fb9f",
+  storageBucket: "shoppingcart-1fb9f.appspot.com",
+  messagingSenderId: "333578290916",
+  appId: "1:333578290916:web:33954582c61f950cd70ef1",
+  measurementId: "G-L3YPJ58Q0L"
+};
 
 
 //initialization of firebase
